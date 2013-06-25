@@ -47,14 +47,14 @@ $(document).ready(function() {
         delay:7000,
         preload: false,
         backgrounds:[
-            {src : 'img/food6.png', fade: 2000},
-            {src : 'img/food7.png', fade: 2000},
-            {src : 'img/food2.png', fade: 2000},
-            {src : 'img/food3.png', fade: 2000},
-            {src : 'img/food4.png', fade: 2000},
-            {src : 'img/food1.png', fade: 2000},
-            {src : 'img/food5.png', fade: 2000},
-            {src : 'img/food6.png', fade: 2000}
+            { src: 'img/IMAG0535.jpg', fade: 2000 },
+            { src: 'img/IMAG0537.jpg', fade: 2000 },
+            { src: 'img/115203.jpg', fade: 2000 },
+            { src: 'img/IMAG0164.jpg', fade: 2000 },
+            { src: 'img/IMAG0174.jpg', fade: 2000 },
+            { src: 'img/IMAG0202.jpg', fade: 2000 },
+            { src: 'img/IMAG0257.jpg', fade: 2000 },
+            { src: 'img/IMAG0303.jpg', fade: 2000 }
 
         ]
     })('overlay');

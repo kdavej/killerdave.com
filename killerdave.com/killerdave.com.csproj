@@ -64,6 +64,7 @@
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\font\fontawesome-webfont.svg" />
     <Content Include="img\06.png" />
+    <Content Include="img\115203.jpg" />
     <Content Include="img\food1.png" />
     <Content Include="img\food2.png" />
     <Content Include="img\food3.png" />
@@ -83,6 +84,13 @@
     <Content Include="img\fullscreen\wide.gif" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\IMAG0164.jpg" />
+    <Content Include="img\IMAG0174.jpg" />
+    <Content Include="img\IMAG0202.jpg" />
+    <Content Include="img\IMAG0257.jpg" />
+    <Content Include="img\IMAG0303.jpg" />
+    <Content Include="img\IMAG0527_BURST013.jpg" />
+    <Content Include="img\IMAG0535.jpg" />
     <Content Include="img\loading.gif" />
     <Content Include="img\prettyPhoto\dark_rounded\btnNext.png" />
     <Content Include="img\prettyPhoto\dark_rounded\btnPrevious.png" />
