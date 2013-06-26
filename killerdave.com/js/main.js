@@ -47,14 +47,14 @@ $(document).ready(function() {
         delay:7000,
         preload: false,
         backgrounds:[
-            { src: 'img/IMAG0535.jpg', fade: 2000 },
-            { src: 'img/IMAG0537.jpg', fade: 2000 },
-            { src: 'img/115203.jpg', fade: 2000 },
-            { src: 'img/IMAG0164.jpg', fade: 2000 },
-            { src: 'img/IMAG0174.jpg', fade: 2000 },
-            { src: 'img/IMAG0202.jpg', fade: 2000 },
-            { src: 'img/IMAG0257.jpg', fade: 2000 },
-            { src: 'img/IMAG0303.jpg', fade: 2000 }
+            { src: 'img/IMAG0535.png', fade: 2000 },
+            { src: 'img/IMAG0537.png', fade: 2000 },
+            { src: 'img/115203.png', fade: 2000 },
+            { src: 'img/IMAG0164.png', fade: 2000 },
+            { src: 'img/IMAG0174.png', fade: 2000 },
+            { src: 'img/IMAG0202.png', fade: 2000 },
+            { src: 'img/IMAG0257.png', fade: 2000 },
+            { src: 'img/IMAG0303.png', fade: 2000 }
 
         ]
     })('overlay');
