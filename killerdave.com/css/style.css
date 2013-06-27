@@ -213,9 +213,11 @@ header{
 
 
 /*--- The Team ---*/
-#the-team h2{
-	font-size: 26px; line-height: 30px;
-	border-bottom: 2px solid #a91e35; 
+#the-team h2
+{
+    font-size: 26px;
+    line-height: 30px;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 #the-team img{
