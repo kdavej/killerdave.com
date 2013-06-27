@@ -23,11 +23,13 @@ input, button, select, textarea {
 	font-family: 14px; line-height: 18px;
 }
 
-h1, h2, h3, h4, h5, h6{
-	color:#ba4c29;
-	font-family:'Open Sans',sans-serif; text-transform: uppercase; font-weight: normal;
-	text-shadow: 1px 1px 1px rgb(126, 45, 0)
-        filter: dropshadow(color=orange, offx=1, offy=1);
+h1, h2, h3, h4, h5, h6
+{
+    color: #3333CC;
+    font-family: 'Open Sans' ,sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgb(126, 45, 0) filter: dropshadow(color=orange, offx=1, offy=1);
 }
 
 .red{
@@ -98,33 +100,34 @@ header{
 	position: fixed; top: 0; left: 0; display: inline-block; width: 100%; z-index: 1;
 	transition: all 800ms;
 }
-	header:hover{
-		background-color: orange;
-	    background-color: rgba(224, 95, 21, 0.8);
-		-moz-transition: all 800ms;
-		-webkit-transition: all 800ms;
-		-o-transition: all 800ms;
-	    transition: all 800ms;
-	}
+	header:hover
+{
+    /*background-color: gray;*/
+    background-color: rgba(192, 192, 192,.75);
+    -moz-transition: all 800ms;
+    -webkit-transition: all 800ms;
+    -o-transition: all 800ms;
+    transition: all 800ms;
+}
 
 .the-head{
 	text-align:center; font-size: 60px; line-height: 64px;	margin-bottom: 30px;
 }
 
 /*--- Top Navigation ---*/
-.navbar .brand {
-	text-shadow: none;
-	-webkit-text-shadow: none;
-	-moz-text-shadow: none;
-	text-transform: uppercase;
-	color: rgb(0, 179, 50);
-	font-size: 43px;
-	line-height: 42px;
-	text-shadow: 1px 1px 1px rgb(213, 255, 220);
-	filter: dropshadow(color=#ffffff, offx=1, offy=1);
+.navbar .brand
+{
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-transform: uppercase;
+    color: rgb(51, 51, 204);
+    font-size: 43px;
+    line-height: 42px;
+    text-shadow: 1px 1px 1px rgb(213, 255, 220);
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
 }
 .navbar .brand i, * i{
-	color: rgb(0, 179, 50);
+	color: rgb(51, 51, 204);
 }
 .navbar-inner{
 	background:none;
@@ -152,15 +155,21 @@ header{
     transition: all 400ms;
 }
 
-.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus, .navbar .nav>li>a:hover{
-	background:none;
-	filter:none;
-	border:none;
-	box-shadow: none;
-	color: rgb(255, 82, 0);
-	background-color: #fff;
-	border-bottom: 2px solid rgb(62, 173, 0);
-	transition: all 800ms4
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:hover
+{
+    background: none;
+    filter: none;
+    box-shadow: none;
+    color: rgb(51, 51, 204);
+    background-color: #fff;
+    border-bottom: 2px solid rgb(62, 173, 0);
+    transition: all 800ms4;
+    border-style: none;
+    border-width: medium;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: rgb(204, 0, 0);
+    border-left-color: inherit;
 }
 
 .navbar .nav>li {
@@ -186,8 +195,10 @@ header{
 
 
 /*--- Services ---*/
-#services h2{
-	border-bottom: 2px solid #a91e35;
+#services h2
+{
+    border-bottom: 2px solid #a91e35;
+    border-bottom-color: #FFFFFF;
 }
 
 #services p{
